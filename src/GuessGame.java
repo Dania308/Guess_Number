@@ -20,7 +20,7 @@ public class GuessGame extends JFrame implements ActionListener {
     private JTextField putNumber;
     private JButton guess;
     private final Random random = new Random();
-    private int attempts = 5;
+    private int attempts = 3;
     private int robotNumber;
     private int userGuess;
 
